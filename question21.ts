@@ -24,8 +24,8 @@ const planes: { brand: string, model: string, year: number, color: string }[] = 
   console.log("List of planes:");
   planes.forEach((planes, index) => {
     console.log(`${index + 1}. Brand: ${planes.brand}`);
-    console.log(`   Model: ${planes.model}`);
-    console.log(`   Year: ${planes.year}`);
-    console.log(`   Color: ${planes.color}`);
-    console.log(); 
+    console.log(`Model: ${planes.model}`);
+    console.log(`Year: ${planes.year}`);
+    console.log(`Color: ${planes.color}`);
+     
   });
